@@ -170,7 +170,6 @@ input.addEventListener('focusout', (e) => {
 
 function createTodo(obj) {
     // const todo = document.querySelector('.todo-list');
-    console.log(state);
     const li = document.createElement('li');
     li.setAttribute('id', obj.id);
     if (obj.status == 'completed') {
@@ -252,7 +251,6 @@ function createTodo(obj) {
     }
     li.addEventListener('mouseenter', function () {
         const buttonInside = document.getElementById(`button` + obj.id);
-        console.log(li);
         if (buttonInside) {
             buttonInside.style.visibility = 'visible';
         }
