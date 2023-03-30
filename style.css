@@ -75,6 +75,7 @@ h1 {
     text-align: center;
     line-height: 1;
     transform: translate(-124%, -112%) scale(1);
+    border: 2px solid transparent;
 }
 
 
@@ -187,6 +188,7 @@ h1 {
     text-align: center;
     line-height: 1;
     transform: translate(-124%, -112%) scale(1);
+    border: 2px solid transparent;
 }
 
 .inside-list {
