@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='styleSheet' href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>todos</h1>
+    <section class="container">
+        <div class="todo-adder">
+            <input type="checkbox" id="top-checkbox">
+            <input type="text" id="todo-adder-text" placeholder="What You like to do?" 
+            autofocus="">
+        </div>
+        <ul class="todo-list">
+        </ul>
+        <div class="counter-base">
+            <span class="todo-count" id="counter-base-count">2 items left</span>
+            <ul class="filters">
+                <li>
+                    <a href="#/" class="selected">All</a>
+                </li>
+                <li>
+                    <a href="#/active" class="active">Active</a>
+                </li>
+                <li>
+                    <a href="#/completed" class="completed-state">Completed</a>
+                </li>
+            </ul>
+            <button class="clear-completed" style="display: block;">Clear completed</button>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/6c48aa9e8c.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
